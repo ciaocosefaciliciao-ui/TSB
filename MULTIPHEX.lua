@@ -86,14 +86,6 @@ s.Volume = 0
 s.Looped = true
 s.Name = i
 end
-local test = Instance.new("Sound")
-test.SoundId = getcustomasset("Grezzo.mp3")
-test.Parent = workspace
-test.Volume = 5
-test.Looped = false
-test:Play()
-
-print("Sound caricato:", test.SoundId)
 function _G.SetMusic(num,vol,tpos)
 local hs = game.CoreGui.HeadsetDisconnectedDialog
 local parts = hs:GetDescendants()
