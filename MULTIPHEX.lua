@@ -111,7 +111,7 @@ if tpos == nil then
 s.TimePosition = 0
 else 
 s.TimePosition = tpos end
-s.SoundId = 'rbxassetid://'..ID
+s.SoundId = 'rbxassetid://120625099329152'..ID
 s.Volume = vol
 s.PlaybackSpeed = sp
 s.Parent = game.CoreGui.HeadsetDisconnectedDialog
