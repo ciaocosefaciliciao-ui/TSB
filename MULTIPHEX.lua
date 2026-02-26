@@ -66,7 +66,7 @@ local filep = game:HttpGet('https://github.com/Reapvitalized/MULTIPHEX_ASSETS/ra
 writefile(audioname..".mp3",filep)
 end
 end
-local tabaudio = {'Multiphex'}
+local tabaudio = {'Grezzo'}
 
 for i = 1,#tabaudio do 
 GetAudio(tabaudio[i])
