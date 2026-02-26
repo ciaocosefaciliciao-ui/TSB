@@ -62,11 +62,11 @@ if success then
 
 else
 info('Downloading '..audioname..'.mp3')
-local filep = game:HttpGet('https://raw.githubusercontent.com/ciaocosefaciliciao-ui/TSB/main/'..audioname..'.mp3')
+local filep = game:HttpGet('https://github.com/Reapvitalized/MULTIPHEX_ASSETS/raw/refs/heads/main/'..audioname..'.mp3')
 writefile(audioname..".mp3",filep)
 end
 end
-local tabaudio = {'Grezzo'}
+local tabaudio = {'Multiphex'}
 
 for i = 1,#tabaudio do 
 GetAudio(tabaudio[i])
@@ -111,7 +111,7 @@ if tpos == nil then
 s.TimePosition = 0
 else 
 s.TimePosition = tpos end
-s.SoundId = 'rbxassetid://120625099329152'..ID
+s.SoundId = 'rbxassetid://'..ID
 s.Volume = vol
 s.PlaybackSpeed = sp
 s.Parent = game.CoreGui.HeadsetDisconnectedDialog
